@@ -2,3 +2,32 @@ en:
   title: "Ruby on Rails Study Framgia Lab"
   static_pages:
     home:
+      title_home: "Home"
+      welcome: "Welcome to the Sample App"
+      signup: "Sign up now!"
+      ruby: "Ruby on Rails Tutorial"
+    about:
+      title_about: "About"
+      about: "About"
+      ruby_tutorial: "Ruby on Rails Tutorial"
+      ruby_book: "Book"
+      ruby_on_rails: "Ruby on Rails"
+    contact:
+      title_contact: "Contact"
+    help:
+      title_help: "Help"
+  layouts:
+    footer:
+      ruby_name: "Ruby on Rails Tutorial"
+      name: "Mr.Dai"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+  users:
+    new:
+      title_signup: "Sign up"
+      signup: "Sign up!"
