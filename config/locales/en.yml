@@ -30,4 +30,9 @@ en:
   users:
     new:
       title_signup: "Sign up"
-      signup: "Sign up!"
+      signup: "Sign up"
+  shared:
+    error_messages:
+      error_noti: "The form contains "
+      error: "error"
+  success: "Welcome to the Sample App!"
