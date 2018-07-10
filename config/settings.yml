@@ -1,0 +1,3 @@
+max:
+  max_email_length: 255
+  max_name_length: 50
