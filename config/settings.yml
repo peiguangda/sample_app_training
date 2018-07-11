@@ -1,3 +1,6 @@
-max:
-  max_email_length: 255
-  max_name_length: 50
+maximum:
+  name_length: 50
+  email_length: 255
+minimum:
+  password: 6
+image_size : 80
