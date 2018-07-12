@@ -1,11 +1,28 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "sample app", '#', class: "logo" %>
+    <%= link_to t(".app_name"), "#", class: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t(".home"), root_path %></li>
         <li><%= link_to t(".help"), help_path %></li>
-        <li><%= link_to t(".login"), "#" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t(".users"), current_user %></li>
+          <li class="dropdown">
+            <%= link_to "#", class: "dropdown-toggle", data: { toggle: "dropdown"} do %>
+              <%= t ".account" %> <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t(".profile"), current_user %></li>
+              <li><%= link_to t(".settings"), '#' %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t(".logout"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t(".login"), login_path %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
