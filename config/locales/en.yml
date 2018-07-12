@@ -27,6 +27,12 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
+      app_name: "AOE CLUB"
+      logout: "Log out"
+      users: "Users"
   users:
     new:
       title_signup: "Sign up"
@@ -36,3 +42,10 @@ en:
       error_noti: "The form contains "
       error: "error"
   success: "Welcome to the Sample App!"
+  sessions:
+    new:
+      login: "Log in"
+      signup: "Sign up now!"
+      login_btn: "Log in"
+      new_user: "New user?"
+  login_invalid_msg: "Invalid email/password combination"
