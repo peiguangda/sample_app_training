@@ -48,4 +48,5 @@ en:
       signup: "Sign up now!"
       login_btn: "Log in"
       new_user: "New user?"
+      remember_me: "Remember me on this computer"
   login_invalid_msg: "Invalid email/password combination"
