@@ -34,9 +34,25 @@ en:
       logout: "Log out"
       users: "Users"
   users:
+    user:
+      delete: "delete"
+      confirm: "You sure?"
     new:
       title_signup: "Sign up"
       signup: "Sign up"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      change: "change"
+      save: "Save changes"
+    update:
+      update_success: "Profile updated"
+    danger_login: "Please log in."
+    index:
+      users_all: "All users"
+    destroy:
+      delete_ok: "User deleted"
+      delete_error: "Delete error"
   shared:
     error_messages:
       error_noti: "The form contains "
