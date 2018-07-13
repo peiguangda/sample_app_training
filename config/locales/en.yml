@@ -6,6 +6,8 @@ en:
       welcome: "Welcome to the Sample App"
       signup: "Sign up now!"
       ruby: "Ruby on Rails Tutorial"
+      micropost_feed: "Micropost Feed"
+      rails_logo: "Rails logo"
     about:
       title_about: "About"
       about: "About"
@@ -47,6 +49,11 @@ en:
       update: "Update your profile"
       change: "change"
       save: "Save changes"
+    show:
+      microposts: "Microposts"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
     update:
       update_success: "Profile updated"
     danger_login: "Please log in."
@@ -59,6 +66,12 @@ en:
     error_messages:
       error_noti: "The form contains "
       error: "error"
+    micropost_form:
+      placeholder_cmt: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
   success: "Welcome to the Sample App!"
   sessions:
     new:
@@ -102,3 +115,7 @@ en:
     pass_reseted: "Password has been reset."
     reset_danger: "Password reset has expired."
     error: "Occur error!"
+  microposts:
+    micropost_create_success: "Micropost created!"
+    micropost_deleted: "Micropost deleted"
+  over_size_msg: "should be less than 5MB"
