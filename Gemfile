@@ -38,5 +38,5 @@ end
 gem "figaro"
 gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "sidekiq"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
