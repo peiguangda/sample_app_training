@@ -3,5 +3,6 @@ maximum:
   email_length: 255
 minimum:
   password: 6
-image_size : 80
 perpage: 10
+image_size: 80
+expire_time: 2
