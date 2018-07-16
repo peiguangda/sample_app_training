@@ -4,3 +4,4 @@ maximum:
 minimum:
   password: 6
 image_size : 80
+perpage: 10

@@ -34,6 +34,8 @@ en:
       logout: "Log out"
       users: "Users"
   users:
+    create:
+      check_mail_to_active: "Please check your email to activate your account."
     user:
       delete: "delete"
       confirm: "You sure?"
@@ -65,4 +67,15 @@ en:
       login_btn: "Log in"
       new_user: "New user?"
       remember_me: "Remember me on this computer"
+    msg_not_active: "Account not activated.Check your email for the activation link."
   login_invalid_msg: "Invalid email/password combination"
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      mail_message: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hi"
+  account_activations:
+    active_success: "Account activated!"
+    active_danger: "Invalid activation link"
+  activate_account: "Account activation"
+  admin_mail: "peiguangda@gmail.com"
