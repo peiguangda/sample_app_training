@@ -10,3 +10,4 @@ content:
   maximum: 140
 picture:
   maxsize: 5
+micropost_size: 50

@@ -39,6 +39,7 @@ group :development do
 end
 
 gem "figaro"
+gem "i18n-js"
 gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
 gem "sidekiq"

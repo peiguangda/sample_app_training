@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 
   def index
     @users = User.where(activated: true).paginate page: params[:page],
-                                                  per_page: Settings.perpage
+      per_page: Settings.perpage
   end
 
   def create
@@ -25,8 +25,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user&.activated
-    redirect_to root_url
+    return redirect_to root_url unless @user&.activated
+    @microposts = @user.microposts.descending_order.paginate page: params[:page],
+      per_page: Settings.perpage
   end
 
   def edit; end
@@ -51,12 +52,6 @@ class UsersController < ApplicationController
   end
 
   private
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".danger_login"
-    redirect_to login_url
-  end
 
   def correct_user
     redirect_to root_url unless current_user? @user
