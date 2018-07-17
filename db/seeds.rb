@@ -17,3 +17,5 @@ User.create!  name: "peiguangda",
                 activated: true,
                 activated_at: Time.zone.now
 end
+
+require "./db/micropost_seed.rb"
