@@ -10,7 +10,7 @@ class Micropost < ApplicationRecord
   private
 
   def picture_size
-    return if picture.size <= Settings.picture.maxsize.megabytes
-    errors.add :picture, t("over_size_msg")
+    return unless picture.size > Settings.picture.maxsize.megabytes
+    errors.add :picture, I18n.t("over_size_msg")
   end
 end

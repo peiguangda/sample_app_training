@@ -67,6 +67,7 @@ en:
       error_noti: "The form contains "
       error: "error"
     micropost_form:
+      microposterror: "Over size"
       placeholder_cmt: "Compose new micropost..."
       post: "Post"
     user_info:
