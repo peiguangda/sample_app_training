@@ -19,3 +19,4 @@ User.create!  name: "peiguangda",
 end
 
 require "./db/micropost_seed.rb"
+require "./db/follow_seed.rb"
